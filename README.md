@@ -1,5 +1,5 @@
 # FontinatorView
-a simple library for adding custom fonts to views in Android
+a simple library for adding custom fonts in views On Android
 
 ```
 dependencies {
