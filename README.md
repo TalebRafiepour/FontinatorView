@@ -15,7 +15,7 @@ dependencies {
 	}
 ```
 
-# Sample
+### Sample
 
 ```
 <com.taleb.fontview.FontTextView
