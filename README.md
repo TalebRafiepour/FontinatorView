@@ -3,7 +3,7 @@ a simple library for adding custom fonts in views On Android
 
 ```
 dependencies {
-	        implementation 'com.github.TalebRafiepour:FontinatorView:0.4'
+	        implementation 'com.github.TalebRafiepour:FontinatorView:0.5'
 	}
 	
 	
