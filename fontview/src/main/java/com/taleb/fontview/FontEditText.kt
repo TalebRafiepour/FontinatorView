@@ -2,21 +2,21 @@ package com.taleb.fontview
 
 import android.content.Context
 import android.graphics.Typeface
-import android.support.v7.widget.AppCompatEditText
 import android.util.AttributeSet
+import android.widget.EditText
 
-open class FontEditText: AppCompatEditText {
+open class FontEditText : EditText {
 
-    constructor(context: Context) : super(context){
-        init(context,null)
+    constructor(context: Context) : super(context) {
+        init(context, null)
     }
 
-    constructor(context: Context, attrs: AttributeSet?) : super(context, attrs){
-        init(context,attrs)
+    constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
+        init(context, attrs)
     }
 
     constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr) {
-        init(context,attrs)
+        init(context, attrs)
     }
 
     private fun init(context: Context, attributeSet: AttributeSet?) {
