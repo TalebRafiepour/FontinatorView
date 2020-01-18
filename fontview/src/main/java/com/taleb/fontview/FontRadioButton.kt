@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import android.widget.RadioButton
 
-class FontRadioButton: RadioButton {
+open class FontRadioButton: RadioButton {
 
     constructor(context: Context) : super(context){
         init(context,null)

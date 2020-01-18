@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import android.widget.TextView
 
-class FontTextView: TextView {
+open class FontTextView: TextView {
 
     constructor(context: Context) : super(context){
         init(context, null)

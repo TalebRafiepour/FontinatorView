@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.support.v7.widget.AppCompatEditText
 import android.util.AttributeSet
 
-class FontEditText: AppCompatEditText {
+open class FontEditText: AppCompatEditText {
 
     constructor(context: Context) : super(context){
         init(context,null)

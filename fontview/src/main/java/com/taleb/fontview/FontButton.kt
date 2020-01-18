@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import android.widget.Button
 
-class FontButton: Button {
+open class FontButton: Button {
 
     constructor(context: Context) : super(context){
         init(context,null)
