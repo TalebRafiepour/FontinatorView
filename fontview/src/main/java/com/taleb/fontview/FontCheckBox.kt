@@ -4,12 +4,7 @@ import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
 import android.widget.CheckBox
-
-<<<<<<< HEAD
 open class FontCheckBox: CheckBox {
-=======
-class FontCheckBox: CheckBox {
->>>>>>> master
 
     constructor(context: Context) : super(context){
         init(context,null)
